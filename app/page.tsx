@@ -1,7 +1,5 @@
-export const dynamic = 'force-dynamic'
-
-import TodoApp from './components/TodoApp'
+import ClientOnly from './components/ClientOnly'
 
 export default function Home() {
-  return <TodoApp />
+  return <ClientOnly />
 }
